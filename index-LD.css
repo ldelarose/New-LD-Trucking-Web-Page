@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+   
+}
+
+a {
+    text-decoration: none; 
+    color: gray; 
+}
+
+.top-nav {
+    display: flex;
+    gap:40px;
+    justify-content: end;
+    padding-top: 30px;
+    padding-right: 450px;
+    padding-bottom: 30px;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+}
+
+#nav-text:hover {
+    color: black;
+    font-size: 23px;
+    
+}
+
+#downtown-img {
+    width: 1903px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    height: 800px;
+}
+
+.bottom-nav {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: gray;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+#share-icon:hover {
+    color: black;
+}
+
+#email-icon:hover {
+    color: black;
+}
+
+#call-icon:hover {
+    color: black;
+}
+
+.middle-page {
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    color: gray;
+    position:relative;
+    bottom: 400px;
+  
+
+}
+
+#service {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 30px;
+ 
+}
+
+#join {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#estimate {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.button {
+    background-color: rgb(8, 185, 216);
+    margin-bottom: 10px;
+}
