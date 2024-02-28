@@ -3,9 +3,10 @@
 }
 
 body {
-    margin: 0;
-    margin-bottom: 0;
-   
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./downtown-2.JPG');
+    background-size: cover;
 }
 
 a {
@@ -47,6 +48,9 @@ a {
     gap: 45px;
     justify-content: center;
     color: gray;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
     position: fixed;
     left: 0;
     right: 0;
@@ -71,8 +75,8 @@ a {
     gap: 100px;
     justify-content: center;
     color: gray;
-    position:relative;
-    bottom: 400px;
+    margin-top: 400px;
+  
   
 
 }
@@ -136,9 +140,7 @@ a {
     gap: 100px;
     justify-content: center;
     color: gray;
-    position:relative;
-    bottom: 500px;
-    margin-bottom: 0;
+    margin-top: 300px;
 
 }
 
