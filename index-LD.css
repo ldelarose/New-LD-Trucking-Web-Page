@@ -18,8 +18,8 @@ a {
     gap:40px;
     justify-content: end;
     padding-top: 30px;
-    padding-right: 450px;
     padding-bottom: 30px;
+    padding-right: 10px;
     position: fixed;
     top:0;
     left:0;
@@ -46,7 +46,6 @@ a {
     display: flex;
     gap: 45px;
     justify-content: center;
-    padding-bottom: 20px;
     color: gray;
     position: fixed;
     left: 0;
@@ -69,7 +68,7 @@ a {
 
 .middle-page {
     display: flex;
-    gap: 300px;
+    gap: 100px;
     justify-content: center;
     color: gray;
     position:relative;
@@ -109,4 +108,59 @@ a {
     background-color: rgb(235, 239, 240);
     margin-bottom: 10px;
     border-radius: 35px;
+}
+
+
+/* CSS Syntax For Services Page Below */
+
+#trucking-service {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 30px;
+ 
+}
+
+#mechanical-service {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.middle-service-page {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    color: gray;
+    position:relative;
+    bottom: 500px;
+    margin-bottom: 0;
+
+}
+
+.ul {
+    display: flex;
+    text-align: start;
+    margin-left: 240px;
+    
+   
+}
+
+.ul-2 {
+    display: flex;
+    text-align: start;
+    margin-left: 280px;
+    
+   
+}
+
+#downtown-img-2 {
+    width: 1903px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    height: 800px;
 }
